@@ -128,12 +128,19 @@ Buka menu **Extensions** pada Visual Studio Code.
 Cari:
 
 ```text
-Extension Pack for Java
+1. Code Runner
+2. Java
+3. Java Run
+4. Language Support for Java(TM) by Red Hat
+5. Debugger for Java
+6. Test Runner for Java
+7. Extension Pack for Java
+
 ```
 
 Kemudian install extension tersebut.
 
-Extension Pack for Java membantu menyediakan berbagai fitur yang dibutuhkan untuk pengembangan Java di Visual Studio Code.
+**Extension Pack for Java** membantu menyediakan berbagai fitur yang dibutuhkan untuk pengembangan Java di Visual Studio Code.
 
 Screenshot:
 
