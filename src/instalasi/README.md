@@ -103,9 +103,11 @@ Tahapan:
 
 1. Klik Windows, ketik:
 ```text
-edit environment variables for your account
+edit the system environment variables
 ```
-2. 
+![Java Version](images/07-environment.png)
+
+2. Lalu klik open
 
 ---
 
