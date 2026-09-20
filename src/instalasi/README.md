@@ -78,7 +78,7 @@ Jika Java sudah berhasil terpasang, terminal akan menampilkan versi Java yang di
 Contoh:
 
 ```text
-java 25 ...
+java 25 2025-09-16 LTS
 ```
 
 Kemudian cek compiler Java:
@@ -96,6 +96,16 @@ javac 25
 Screenshot:
 
 ![Java Version](images/06-check-java.png)
+
+Lalu ketika sudah terlihat versinya, kita masukkan Path lokasi java ke System Properties Laptop/PC
+
+Tahapan:
+
+1. Klik Windows, ketik:
+```text
+edit environment variables for your account
+```
+2. 
 
 ---
 
