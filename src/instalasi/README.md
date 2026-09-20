@@ -116,6 +116,8 @@ edit the system environment variables
 4. Klik **Path** di kedua variabel tersebut, lalu klik **Edit** masukkan lokasi Java yang sudah kamu download tadi
 ![Edit Path](images/10-editpath.png)
 
+5. Ketika sudah dimasukkan, klik **Oke** sampai menu Environtment tertutup. Lalu Reload Windows dan Reload Visual Studio Code kamu
+
 
 ---
 
