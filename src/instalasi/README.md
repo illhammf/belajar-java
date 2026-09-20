@@ -105,9 +105,10 @@ Tahapan:
 ```text
 edit the system environment variables
 ```
-![Java Version](images/07-environment.png)
+![Environment](images/07-environment.png)
 
-2. Lalu klik open
+2. Lalu klik open, dan klik ***Environment Variabel***
+![Java Version](images/08-environmentvar.png)
 
 ---
 
