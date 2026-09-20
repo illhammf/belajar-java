@@ -111,9 +111,11 @@ edit the system environment variables
 ![EnvironmentVar](images/08-environmentvar.png)
 
 3. Terlihat pada Environment Variabel ada ***User Variabel*** (atas) dan ***System Variabel*** (bawah).
-![EnvironmentVar](images/09-path.png)
+![Path](images/09-path.png)
 
 4. Klik **Path** di kedua variabel tersebut, lalu klik **Edit** masukkan lokasi Java yang sudah kamu download tadi
+![Edit Path](images/10-editpath.png)
+
 
 ---
 
