@@ -139,13 +139,22 @@ Cari:
 9. CodeSnap
 ```
 
-Kemudian install extension tersebut.
+Opsional biar Gantengg:
 
+```text
+10. Material Icon Theme
+11. One Dark Pro
+12. WSL
+```
+
+Kemudian install extension-extension tersebut.
+
+Catatan:
 **Extension Pack for Java** membantu menyediakan berbagai fitur yang dibutuhkan untuk pengembangan Java di Visual Studio Code.
 
 Screenshot:
 
-![Java Extension](images/05-install-extension.png)
+![Java Extension](images/05-extension.png)
 
 ---
 
@@ -195,6 +204,8 @@ Output:
 ```text
 Hello, Java!
 ```
+
+Atau bisa juga klik **icon Play** di sudut kanan VS Code, dan pilih **Run Java**
 
 ---
 
