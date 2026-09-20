@@ -135,7 +135,8 @@ Cari:
 5. Debugger for Java
 6. Test Runner for Java
 7. Extension Pack for Java
-
+8. Error Lens
+9. CodeSnap
 ```
 
 Kemudian install extension tersebut.
