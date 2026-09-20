@@ -1,0 +1,193 @@
+# 🛠️ Instalasi Java Development Environment
+
+Panduan ini digunakan untuk menyiapkan environment yang diperlukan untuk mengikuti pembelajaran Java pada repository ini.
+
+Development environment yang digunakan:
+
+- **Visual Studio Code** sebagai code editor.
+- **JDK 25** sebagai Java Development Kit.
+- **Java Extension Pack** untuk membantu proses pengembangan Java di Visual Studio Code.
+
+---
+
+# 1. Install Visual Studio Code
+
+Download Visual Studio Code melalui website resmi:
+
+🔗 https://code.visualstudio.com/download?_exp_download=fb315fc982
+
+Pilih installer sesuai sistem operasi yang digunakan.
+
+Untuk Windows, pilih installer Windows kemudian tunggu proses download selesai.
+
+---
+
+## Instalasi Visual Studio Code
+
+1. Jalankan file installer Visual Studio Code.
+2. Ikuti proses instalasi.
+3. Gunakan pengaturan default jika tidak memiliki kebutuhan khusus.
+4. Setelah instalasi selesai, buka Visual Studio Code.
+
+Screenshot:
+
+![Download Visual Studio Code](images/01-download-vscode.png)
+
+---
+
+# 2. Install JDK 25
+
+JDK diperlukan untuk melakukan compile dan menjalankan program Java.
+
+Download **JDK 25 untuk Windows 64-bit** melalui link berikut:
+
+🔗 https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe
+
+Setelah download selesai:
+
+1. Jalankan installer JDK.
+2. Ikuti proses instalasi.
+3. Gunakan lokasi instalasi default.
+4. Tunggu hingga proses instalasi selesai.
+
+Screenshot:
+
+![Download JDK 25](images/03-download-jdk.png)
+
+---
+
+# 3. Mengecek Instalasi Java
+
+Setelah JDK selesai di-install, buka terminal.
+
+Di Visual Studio Code, terminal dapat dibuka melalui:
+
+```text
+Terminal → New Terminal
+```
+
+Kemudian jalankan:
+
+```bash
+java --version
+```
+
+Jika Java sudah berhasil terpasang, terminal akan menampilkan versi Java yang digunakan.
+
+Contoh:
+
+```text
+java 25 ...
+```
+
+Kemudian cek compiler Java:
+
+```bash
+javac --version
+```
+
+Contoh:
+
+```text
+javac 25
+```
+
+Screenshot:
+
+![Java Version](images/06-check-java.png)
+
+---
+
+# 4. Install Extension Java di Visual Studio Code
+
+Buka menu **Extensions** pada Visual Studio Code.
+
+Cari:
+
+```text
+Extension Pack for Java
+```
+
+Kemudian install extension tersebut.
+
+Extension Pack for Java membantu menyediakan berbagai fitur yang dibutuhkan untuk pengembangan Java di Visual Studio Code.
+
+Screenshot:
+
+![Java Extension](images/05-install-extension.png)
+
+---
+
+# 5. Membuat Program Java Pertama
+
+Buat file:
+
+```text
+Main.java
+```
+
+Kemudian masukkan kode berikut:
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello, Java!");
+
+    }
+}
+```
+
+Simpan file tersebut.
+
+---
+
+# 6. Menjalankan Program
+
+Buka terminal pada folder tempat file `Main.java` berada.
+
+Compile program:
+
+```bash
+javac Main.java
+```
+
+Jika tidak terdapat error, jalankan program:
+
+```bash
+java Main
+```
+
+Output:
+
+```text
+Hello, Java!
+```
+
+---
+
+# 7. Struktur Environment
+
+Jika seluruh instalasi berhasil, environment yang digunakan adalah:
+
+```text
+Visual Studio Code
+        │
+        ├── Java Extension Pack
+        │
+        └── JDK 25
+              │
+              ├── javac
+              └── java
+```
+
+Dengan environment tersebut, kita sudah siap mengikuti pembelajaran Java dan Pemrograman Berorientasi Objek.
+
+---
+
+## 📌 Catatan
+
+Repository ini menggunakan **Visual Studio Code** sebagai code editor.
+
+Materi perkuliahan dapat menggunakan IDE yang berbeda, tetapi contoh dan panduan pada repository ini disesuaikan agar dapat dipraktikkan menggunakan Visual Studio Code.
