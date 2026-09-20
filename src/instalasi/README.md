@@ -19,6 +19,7 @@ Download Visual Studio Code melalui website resmi:
 Pilih installer sesuai sistem operasi yang digunakan.
 
 Untuk Windows, pilih installer Windows kemudian tunggu proses download selesai.
+Pilih yang versi System Installer (x64)
 
 ---
 
