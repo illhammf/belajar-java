@@ -9,7 +9,7 @@ public class Mahasiswa { // Membuat class Mahasiswa
         System.out.println(nama + " sedang belajar Java.");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // ini adalah method main, tempat program dijalankan
 
         // Membuat object dari class Mahasiswa
         Mahasiswa mahasiswa = new Mahasiswa();
