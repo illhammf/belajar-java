@@ -6,6 +6,10 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 
 ---
 
+### Panduan Instalasi
+Kamu bisa masuk ke folder instalasi:
+[Cara Instalasi Java](src/instalasi/README.md)
+
 ## 📚 Materi Pembelajaran
 
 | Pertemuan | Materi | Status |
