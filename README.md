@@ -6,13 +6,6 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 
 ---
 
-### Panduan Instalasi
-Kamu bisa masuk ke folder instalasi:
-
-[Cara Instalasi Java](src/instalasi/README.md)
-
----
-
 ## 📚 Materi Pembelajaran
 
 | Pertemuan | Materi | Status |
@@ -46,7 +39,7 @@ Pembelajaran pada repository ini menggunakan:
 
 Panduan instalasi dan konfigurasi dapat dilihat pada:
 
-👉 [Panduan Instalasi Java & Visual Studio Code](instalasi/)
+👉 [Panduan Instalasi Java & Visual Studio Code](instalasi/README.md)
 
 ---
 
