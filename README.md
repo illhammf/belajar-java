@@ -1,18 +1,110 @@
-## Getting Started
+# Belajar Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repository ini berisi dokumentasi pembelajaran **Java dan Pemrograman Berorientasi Objek (PBO)** yang disusun berdasarkan materi perkuliahan selama 14 pertemuan.
 
-## Folder Structure
+Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik coding Java, mulai dari konsep dasar hingga materi Pemrograman Berorientasi Objek.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📚 Materi Pembelajaran
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Pertemuan | Materi | Status |
+|---|---|---|
+| [Pertemuan 01](src/pertemuan-01/) | Introduction to Object Oriented Programming | ✅ |
+| Pertemuan 02 | - | ⏳ |
+| Pertemuan 03 | - | ⏳ |
+| Pertemuan 04 | - | ⏳ |
+| Pertemuan 05 | - | ⏳ |
+| Pertemuan 06 | - | ⏳ |
+| Pertemuan 07 | - | ⏳ |
+| Pertemuan 08 | - | ⏳ |
+| Pertemuan 09 | - | ⏳ |
+| Pertemuan 10 | - | ⏳ |
+| Pertemuan 11 | - | ⏳ |
+| Pertemuan 12 | - | ⏳ |
+| Pertemuan 13 | - | ⏳ |
+| Pertemuan 14 | - | ⏳ |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Materi setiap pertemuan akan diperbarui secara bertahap sesuai dengan pembelajaran.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🛠️ Development Environment
+
+Pembelajaran pada repository ini menggunakan:
+
+- **Java JDK 25**
+- **Visual Studio Code**
+- **Extension Pack for Java**
+
+Panduan instalasi dan konfigurasi dapat dilihat pada:
+
+👉 [Panduan Instalasi Java & Visual Studio Code](instalasi/)
+
+---
+
+## 📂 Struktur Repository
+
+```text
+belajar-java/
+├── instalasi/
+│   ├── README.md
+│   └── images/
+│
+├── src/
+│   ├── pertemuan-01/
+│   │   ├── README.md
+│   │   ├── contoh/
+│   │   └── quiz/
+│   │
+│   ├── pertemuan-02/
+│   └── ...
+│
+└── README.md
+```
+
+### Penjelasan
+
+- `instalasi/` → panduan menyiapkan environment Java.
+- `src/` → source code pembelajaran.
+- `pertemuan-01/`, `pertemuan-02/`, dan seterusnya → materi setiap pertemuan.
+- `contoh/` → contoh kode dari materi.
+- `quiz/` → soal dan implementasi quiz.
+
+---
+
+## 🎯 Tujuan Repository
+
+Repository ini dibuat untuk mendokumentasikan proses belajar Java secara bertahap dan terstruktur.
+
+Materi tidak hanya berisi teori, tetapi juga dilengkapi dengan:
+
+- Penjelasan materi.
+- Contoh program.
+- Latihan coding.
+- Quiz atau tugas.
+- Dokumentasi hasil pembelajaran.
+
+---
+
+## 📖 Progress
+
+Repository ini akan dikembangkan secara bertahap selama **14 pertemuan**.
+
+```text
+Pertemuan 01  ████████████████████ 100%
+Pertemuan 02  ░░░░░░░░░░░░░░░░░░░░   0%
+Pertemuan 03  ░░░░░░░░░░░░░░░░░░░░   0%
+...
+Pertemuan 14  ░░░░░░░░░░░░░░░░░░░░   0%
+```
+
+> Progress akan diperbarui seiring bertambahnya materi.
+
+---
+
+## 👨‍💻 Author
+
+**Ilham Firmansyah**
+
+GitHub: [@illhammf](https://github.com/illhammf)
