@@ -1,5 +1,8 @@
 # 🛠️ Instalasi Java Development Environment
 
+Link Panduan dalam bentuk Video:
+https://youtu.be/m7orYxDyt24
+
 Panduan ini digunakan untuk menyiapkan environment yang diperlukan untuk mengikuti pembelajaran Java pada repository ini.
 
 Development environment yang digunakan:
