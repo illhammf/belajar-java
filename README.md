@@ -39,7 +39,7 @@ Pembelajaran pada repository ini menggunakan:
 
 Panduan instalasi dan konfigurasi dapat dilihat pada:
 
-👉 [Panduan Instalasi Java & Visual Studio Code](src/instalasi/README.md)
+👉 [Panduan Instalasi Java & Visual Studio Code](src/pertemuan-01/instalasi/README.md)
 
 ---
 
