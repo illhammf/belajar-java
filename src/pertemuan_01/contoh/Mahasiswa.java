@@ -1,3 +1,5 @@
+package pertemuan_01.contoh; // Membuat package pertemuan_01.contoh
+
 public class Mahasiswa { // Membuat class Mahasiswa
 
     // Attribute
