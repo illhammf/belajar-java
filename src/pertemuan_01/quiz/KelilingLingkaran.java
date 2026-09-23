@@ -1,3 +1,5 @@
+package pertemuan_01.quiz;
+
 import java.util.Scanner;
 
 public class KelilingLingkaran {
