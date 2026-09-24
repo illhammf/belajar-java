@@ -46,18 +46,18 @@ Panduan instalasi dan konfigurasi dapat dilihat pada:
 ## 📂 Struktur Repository
 
 ```text
-belajar-java/
+Belajar Java/
 ├── instalasi/
 │   ├── README.md
 │   └── images/
 │
 ├── src/
-│   ├── pertemuan-01/
+│   ├── pertemuan_01/
 │   │   ├── README.md
 │   │   ├── contoh/
 │   │   └── quiz/
 │   │
-│   ├── pertemuan-02/
+│   ├── pertemuan_02/
 │   └── ...
 │
 └── README.md
@@ -67,7 +67,7 @@ belajar-java/
 
 - `instalasi/` → panduan menyiapkan environment Java.
 - `src/` → source code pembelajaran.
-- `pertemuan-01/`, `pertemuan-02/`, dan seterusnya → materi setiap pertemuan.
+- `pertemuan_01/`, `pertemuan_02/`, dan seterusnya → materi setiap pertemuan.
 - `contoh/` → contoh kode dari materi.
 - `quiz/` → soal dan implementasi quiz.
 
