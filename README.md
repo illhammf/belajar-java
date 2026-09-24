@@ -10,8 +10,8 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 
 | Pertemuan | Materi | Status |
 |---|---|---|
-| [Pertemuan 01](src/pertemuan-01/) | Introduction to Object Oriented Programming | ✅ |
-| Pertemuan 02 | - | ⏳ |
+| [Pertemuan 01](src/pertemuan_01/) | Introduction to Object Oriented Programming | ✅ |
+| [Pertemuan 02](src/pertemuan_02/) | Data Type, Variable, Method and Expression | ✅ |
 | Pertemuan 03 | - | ⏳ |
 | Pertemuan 04 | - | ⏳ |
 | Pertemuan 05 | - | ⏳ |
