@@ -997,3 +997,27 @@ Program menjadi lebih terorganisir
 ```
 
 Konsep-konsep tersebut akan menjadi dasar untuk mempelajari materi Java dan Pemrograman Berorientasi Objek pada pertemuan berikutnya.
+
+## 🧮 Praktik — Program Bangun Ruang
+
+Pada pertemuan ini dibuat beberapa program untuk menghitung bangun ruang
+dengan menerapkan materi:
+
+- Tipe Data
+- Variabel
+- Method
+- Parameter
+- Return Value
+- Expression
+- Arithmetic Operator
+- Math Method
+
+### Program
+
+| Program | Perhitungan |
+|---|---|
+| [Kubus](./bangunruang/Kubus.java) | Volume & Luas Permukaan |
+| [Balok](./bangunruang/Balok.java) | Volume, Luas Permukaan & Diagonal |
+| [Tabung](./bangunruang/Tabung.java) | Volume & Luas Permukaan |
+| [Kerucut](./bangunruang/Kerucut.java) | Volume, Luas Permukaan & Garis Pelukis |
+| [Bola](./bangunruang/Bola.java) | Volume & Luas Permukaan |
