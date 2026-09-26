@@ -1,3 +1,5 @@
+package pertemuan_02.bangunruang;
+
 import java.util.Scanner;
 
 public class Kubus {
