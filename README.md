@@ -12,7 +12,7 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 |---|---|---|
 | [Pertemuan 01](src/pertemuan_01/) | Introduction to Object Oriented Programming | ✅ |
 | [Pertemuan 02](src/pertemuan_02/) | Data Type, Variable, Method and Expression | ✅ |
-| Pertemuan 03 | - | ⏳ |
+| [Pertemuan 03](src/pertemuan_03/) | Control Statement | ✅ |
 | Pertemuan 04 | - | ⏳ |
 | Pertemuan 05 | - | ⏳ |
 | Pertemuan 06 | - | ⏳ |
@@ -94,7 +94,7 @@ Repository ini akan dikembangkan secara bertahap selama **14 pertemuan**.
 ```text
 Pertemuan 01  ████████████████████ 100%
 Pertemuan 02  ████████████████████ 100%
-Pertemuan 03  ░░░░░░░░░░░░░░░░░░░░   0%
+Pertemuan 03  ░░░░░░░░░░░░░░░░░░░░   20%
 ...
 Pertemuan 14  ░░░░░░░░░░░░░░░░░░░░   0%
 ```
