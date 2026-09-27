@@ -1,3 +1,5 @@
+package pertemuan_03.quiz;
+
 import java.util.Scanner;
 
 public class GanjilGenap {
