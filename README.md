@@ -94,7 +94,7 @@ Repository ini akan dikembangkan secara bertahap selama **14 pertemuan**.
 ```text
 Pertemuan 01  ████████████████████ 100%
 Pertemuan 02  ████████████████████ 100%
-Pertemuan 03  ░░░░░░░░░░░░░░░░░░░░   20%
+Pertemuan 03  ████████████████████ 100%
 ...
 Pertemuan 14  ░░░░░░░░░░░░░░░░░░░░   0%
 ```
