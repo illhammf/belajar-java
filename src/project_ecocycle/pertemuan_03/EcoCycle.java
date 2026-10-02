@@ -1,3 +1,4 @@
+package project_ecocycle.pertemuan_03;
 
 import java.util.Scanner;
 
