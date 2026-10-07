@@ -1,5 +1,7 @@
 package pertemuan_04.contoh;
 
+import java.util.Scanner;
+
 public class Lpersegipanjang {
 
     public static double hitungarea(int pLong, int pWidth) {
