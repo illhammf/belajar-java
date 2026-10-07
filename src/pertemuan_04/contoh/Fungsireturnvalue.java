@@ -1,5 +1,6 @@
 package pertemuan_04.contoh;
 
+// contoh fungsi yang mengembalikan nilai
 public class Fungsireturnvalue {
 
     // fungsi luas segi empat
