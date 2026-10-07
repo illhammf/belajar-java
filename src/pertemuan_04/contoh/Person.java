@@ -16,7 +16,7 @@ class Person {
 
         Person person = new Person("Rena");
 
-        changeName(person);
+        changeName(person); // memanggil fungsi untuk mengubah nama, yang tadinya "Rena" menjadi "Rani"
 
         System.out.println(person.name);
         // Output: Rani (objek asli berubah)
