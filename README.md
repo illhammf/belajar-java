@@ -13,7 +13,7 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 | [Pertemuan 01](src/pertemuan_01/) | Introduction to Object Oriented Programming | ✅ |
 | [Pertemuan 02](src/pertemuan_02/) | Data Type, Variable, Method and Expression | ✅ |
 | [Pertemuan 03](src/pertemuan_03/) | Control Statement | ✅ |
-| Pertemuan 04 | - | ⏳ |
+| [Pertemuan 04](src/pertemuan_04/) | Function and Parameter | ✅ |
 | Pertemuan 05 | - | ⏳ |
 | Pertemuan 06 | - | ⏳ |
 | Pertemuan 07 | - | ⏳ |
@@ -39,7 +39,7 @@ Pembelajaran pada repository ini menggunakan:
 
 Panduan instalasi dan konfigurasi dapat dilihat pada:
 
-👉 [Panduan Instalasi Java & Visual Studio Code](src/pertemuan-01/instalasi/README.md)
+👉 [Panduan Instalasi Java & Visual Studio Code](src/pertemuan_01/instalasi/README.md)
 
 ---
 
@@ -95,6 +95,7 @@ Repository ini akan dikembangkan secara bertahap selama **14 pertemuan**.
 Pertemuan 01  ████████████████████ 100%
 Pertemuan 02  ████████████████████ 100%
 Pertemuan 03  ████████████████████ 100%
+Pertemuan 04  ████████████████████ 85%
 ...
 Pertemuan 14  ░░░░░░░░░░░░░░░░░░░░   0%
 ```
