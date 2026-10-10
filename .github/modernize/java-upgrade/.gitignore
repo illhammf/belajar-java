@@ -1,0 +1,5 @@
+
+# Ini adalah file .gitignore untuk proyek Java Upgrade di GitHub. File ini digunakan untuk menentukan file dan direktori yang harus diabaikan oleh sistem kontrol versi Git. Berikut adalah isi dari file .gitignore:
+# Mengabaikan file log yang dihasilkan oleh Java Virtual Machine (JVM) saat terjadi kesalahan fatal. File log ini biasanya memiliki nama yang dimulai dengan "hs_err_pid" di
+hs_err_pid13820.log
+
