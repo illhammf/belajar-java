@@ -3,5 +3,5 @@
         "src"
     ],
     "java.project.outputPath": "bin",
-    "java.jdt.ls.vmargs": "-Xmx2048m"
+    "java.jdt.ls.vmargs": "-Xms256m -Xmx2048m -XX:+UseG1GC"
 }
