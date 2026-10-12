@@ -28,7 +28,7 @@ public class LuasSegitiga {
 
     // Getter untuk menghitung dan mengambil luas
     public double getLuas() {
-        this.luas = this.alas * this.tinggi * 0.5;
+        this.luas = this.alas * this.tinggi * 0.5; // Rumus luas segitiga = 1/2 * alas * tinggi
         return this.luas;
     }
 }
