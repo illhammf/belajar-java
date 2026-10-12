@@ -1,5 +1,0 @@
-# Abaikan semua JVM crash log
-hs_err_pid*.log
-
-# Abaikan file log lainnya (opsional)
-*.log

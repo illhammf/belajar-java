@@ -1,0 +1,11 @@
+# Abaikan folder GitHub
+.github/
+
+# Abaikan JVM crash log
+hs_err_pid*.log
+
+# Abaikan file log
+*.log
+
+# Abaikan hasil kompilasi Java
+*.class
