@@ -14,7 +14,7 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 | [Pertemuan 02](src/pertemuan_02/) | Data Type, Variable, Method and Expression | ✅ |
 | [Pertemuan 03](src/pertemuan_03/) | Control Statement | ✅ |
 | [Pertemuan 04](src/pertemuan_04/) | Function and Parameter | ✅ |
-| Pertemuan 05 | - | ⏳ |
+| [Pertemuan 05](src/pertemuan_05/) | Encapsulation (Concept) | ✅ |
 | Pertemuan 06 | - | ⏳ |
 | Pertemuan 07 | - | ⏳ |
 | Pertemuan 08 | - | ⏳ |
@@ -95,7 +95,8 @@ Repository ini akan dikembangkan secara bertahap selama **14 pertemuan**.
 Pertemuan 01  ████████████████████ 100%
 Pertemuan 02  ████████████████████ 100%
 Pertemuan 03  ████████████████████ 100%
-Pertemuan 04  ████████████████████ 85%
+Pertemuan 04  ████████████████████ 100%
+Pertemuan 05  ████████████████████ 70%
 ...
 Pertemuan 14  ░░░░░░░░░░░░░░░░░░░░   0%
 ```
