@@ -1,6 +1,5 @@
 package pertemuan_06.kuis_02;
 
-
 public class RekeningBank {
 
     // Data rekening dilindungi menggunakan private
