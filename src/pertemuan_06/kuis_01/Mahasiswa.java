@@ -43,4 +43,7 @@ public class Mahasiswa {
     public Double getIpk() {
         return ipk;
     }
+
+    // Kenapa kita menggunakan getter dan setter?
+    // Jawaban: Getter dan setter digunakan untuk mengontrol akses ke atribut private.
 }
