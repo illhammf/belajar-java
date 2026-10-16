@@ -20,7 +20,7 @@ public class Main {
             "Saldo: " + rekening.getSaldo()
         );
 
-        // Menguji validasi dengan saldo negatif
+        // Menguji validasi dengan saldo negatif, ini akan memicu pesan error dari setter
         rekening.setSaldo(-500000.0);
 
         // Saldo tidak berubah karena setter menolak nilai negatif
