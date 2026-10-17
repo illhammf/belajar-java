@@ -38,5 +38,10 @@ public class EcoCycle {
             "Total Nilai Seluruh Setoran: Rp" + totalSetoran
         );
     }
+
+    /*
+    Untuk versi awal Pertemuan 6, kita buat program demonstrasi agar hubungan antarclass bisa langsung diuji. 
+    Nantinya menu dan alur program EcoCycle yang sudah ada dapat digabungkan ke versi ini.
+    */
 }
 
