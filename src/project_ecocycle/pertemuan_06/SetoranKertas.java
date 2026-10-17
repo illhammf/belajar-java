@@ -1,6 +1,6 @@
 package project_ecocycle.pertemuan_06;
 
-
+// Kertas juga dapat memiliki informasi tambahan, misalnya jenis kertas yang disetorkan.
 public class SetoranKertas extends SetoranSampah {
 
     // Atribut khusus untuk jenis kertas
