@@ -1,5 +1,6 @@
 package pertemuan_06.kuis_04_opsional;
 
+
 public class Produk {
 
     // Atribut private hanya bisa diakses langsung dari class ini
@@ -63,6 +64,4 @@ public class Produk {
         System.out.println("Harga: " + harga);
         System.out.println("Stok: " + stok);
     }
-}
-  
 }
