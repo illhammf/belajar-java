@@ -38,5 +38,4 @@ public class SetoranKertas extends SetoranSampah {
         System.out.println("Jenis Kertas: " + jenisKertas);
     }
 }
-   
-}
+
