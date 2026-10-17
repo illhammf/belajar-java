@@ -1,4 +1,4 @@
-# EcoCycle — Pengembangan Pertemuan 6
+# ♻️ EcoCycle — Pengembangan Pertemuan 6
 
 ## 📖 Deskripsi
 
