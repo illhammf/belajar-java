@@ -28,5 +28,11 @@ public class Main {
             "Saldo setelah validasi: " + rekening.getSaldo()
         );
     }
+
+    /*
+    Inti pembelajaran: 
+    validasi pada setter menjaga agar saldo yang diperbarui tidak bernilai negatif. 
+    Pada kode ini, constructor masih menerima saldo awal secara langsung, jadi dalam aplikasi nyata constructor juga sebaiknya memvalidasi saldo awal.
+    */
 }
 
