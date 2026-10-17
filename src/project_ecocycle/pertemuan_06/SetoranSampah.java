@@ -67,5 +67,13 @@ public class SetoranSampah {
             "Nilai Setoran: Rp" + hitungNilaiSetoran()
         );
     }
+
+    /*
+    Kenapa menjadi class induk? Karena nama nasabah, berat, harga per kilogram, 
+    dan perhitungan nilai setoran merupakan data serta perilaku dasar yang dapat digunakan oleh berbagai jenis sampah.
+
+    Class ini dapat menjadi dasar untuk class turunan yang lebih spesifik, misalnya SetoranSampahOrganik atau SetoranSampahAnorganik,
+    yang mungkin memiliki atribut tambahan atau metode khusus sesuai dengan karakteristik sampah tersebut.
+    */
 }
 
