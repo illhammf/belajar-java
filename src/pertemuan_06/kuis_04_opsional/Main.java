@@ -22,4 +22,15 @@ public class Main {
         // Menampilkan seluruh data produk elektronik
         laptop.tampilkanInfoElektronik();
     }
+
+    /*
+    Konsep penting pada tugas tambahan:
+    - extends Produk berarti Elektronik mewarisi anggota class Produk yang dapat diaksesnya.
+    - super(...) memanggil constructor class induk.
+    - Atribut private pada Produk tidak bisa diakses langsung oleh Elektronik; karena itu kita menggunakan getter dan setter.
+    - garansi merupakan atribut tambahan yang hanya dimiliki class Elektronik.
+
+    Tugas ini menjadi pengantar untuk materi inheritance. 
+    Walaupun kita membahas kelas turunan di sini, fokus utama Pertemuan 6 tetap pada pengelolaan akses data dan penerapan encapsulation.
+    */
 }
