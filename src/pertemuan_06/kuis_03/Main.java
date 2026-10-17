@@ -17,5 +17,14 @@ public class Main {
         // Menampilkan informasi produk terbaru
         produk1.tampilkanInfo();
     }
+
+    /*
+    Inti pembelajaran: 
+    class Produk melindungi data melalui atribut private, menyediakan getter dan setter, serta memiliki method khusus untuk mengelola stok. 
+    Validasi mencegah stok menjadi negatif melalui method yang disediakan.
+    
+    Catatan: pada laporan praktikum punya ku, setter harga dan stok dibuat sederhana.
+    Di sini aku menambahkan validasi dasar agar harga dan stok tidak dapat diubah ke nilai negatif melalui setter.
+    */
 }
 
