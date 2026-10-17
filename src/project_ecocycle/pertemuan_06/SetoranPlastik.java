@@ -29,7 +29,7 @@ public class SetoranPlastik extends SetoranSampah {
     }
 
     // Menampilkan informasi umum dan informasi khusus plastik
-    @Override
+    @Override // untuk menandai bahwa method ini meng-override method dari superclass
     public void tampilkanInformasi() {
         System.out.println("=== SETORAN SAMPAH PLASTIK ===");
 
@@ -38,5 +38,10 @@ public class SetoranPlastik extends SetoranSampah {
 
         System.out.println("Jenis Plastik: " + jenisPlastik);
     }
+
+    /*
+    Di sini kita mengenal @Override. 
+    Anotasi ini menandakan bahwa subclass menyediakan implementasi ulang dari method yang sudah ada pada superclass.
+    */
 }
 
