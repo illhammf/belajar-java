@@ -16,5 +16,11 @@ public class Main {
         System.out.println("NIM: " + mhs.getNim());
         System.out.println("IPK: " + mhs.getIpk());
     }
+
+    /*
+    Inti pembelajaran: 
+    atribut dibuat private, constructor memberikan nilai awal, dan getter digunakan untuk membaca data. 
+    Setter tersedia jika data perlu diubah.
+    */
 }
 
