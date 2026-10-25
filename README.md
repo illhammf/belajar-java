@@ -16,7 +16,7 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 | [Pertemuan 04](src/pertemuan_04/) | Function and Parameter | ✅ |
 | [Pertemuan 05](src/pertemuan_05/) | Encapsulation (Concept) | ✅ |
 | [Pertemuan 06](src/pertemuan_06/) | Encapsulation (Lanjutan) | ✅ |
-| Pertemuan 07 | - | ⏳ |
+| [Pertemuan 07](src/pertemuan_07/) | Memory Management | ⏳ |
 | Pertemuan 08 | - | ⏳ |
 | Pertemuan 09 | - | ⏳ |
 | Pertemuan 10 | - | ⏳ |
