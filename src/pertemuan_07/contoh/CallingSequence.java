@@ -39,4 +39,14 @@ Perhatikan urutannya:
 
 Hubungannya dengan Memory Management: setiap pemanggilan method membutuhkan informasi selama method tersebut berjalan. 
 Call frame untuk pemanggilan method baru ditambahkan ke call stack, kemudian dilepas ketika method selesai.
+
+Gambaran sederhananya:
+main()
+  |
+  └── methodPertama()
+          |
+          └── methodKedua()
+
+Ketika methodKedua() selesai, program kembali ke methodPertama(). 
+Inilah salah satu cara memahami mekanisme Last In, First Out (LIFO) pada call stack.
 */
