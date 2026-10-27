@@ -1,3 +1,5 @@
+package pertemuan_07.contoh;
+
 public class MemoryManagementDemo {
 
     public static void main(String[] args) {
