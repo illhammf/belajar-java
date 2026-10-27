@@ -41,3 +41,30 @@ class Mahasiswa {
         this.nama = nama;
     }
 }
+
+/*
+Bagian pertama: variabel primitif
+int angka1 = 10;
+int angka2 = angka1;
+
+angka2 = 20;
+
+Ketika nilai angka1 disalin ke angka2, nilai primitifnya disalin. Perubahan angka2 menjadi 20 tidak mengubah angka1.
+
+---
+
+Bagian kedua: variabel referensi
+Mahasiswa mhs1 = new Mahasiswa("Ilham");
+Mahasiswa mhs2 = mhs1;
+
+Pada bagian ini, mhs2 tidak membuat objek mahasiswa baru. Variabel tersebut menyalin referensi yang sama dengan mhs1.
+
+Akibatnya, keduanya merujuk pada objek yang sama. Ketika nama objek diubah melalui mhs2, perubahan itu juga terlihat melalui mhs1.
+
+Gambaran sederhananya:
+mhs1 ──────┐
+           ├────> Object Mahasiswa
+mhs2 ──────┘       nama = "Budi"
+
+Konsep ini berkaitan langsung dengan pembahasan variabel referensi dan objek di heap pada materi dosen.
+*/
