@@ -22,3 +22,15 @@ public class ReturnValueDemo {
         return angka * angka;
     }
 }
+
+/*
+Pada kode ini:
+
+int hasil = kuadrat(5);
+
+Program memanggil method kuadrat() dengan nilai 5. Method tersebut menghitung 5 * 5, lalu mengembalikan hasil 25 melalui return.
+
+Setelah method selesai, eksekusi kembali ke main() dan nilai yang dikembalikan disimpan dalam variabel hasil.
+
+Ini berkaitan dengan isi call frame yang mencakup informasi mengenai nilai kembalian method.
+*/
