@@ -31,3 +31,24 @@ class Mahasiswa {
         this.nama = nama;
     }
 }
+
+/*
+Awalnya, mhs1 dan mhs2 menunjuk pada objek yang sama.
+mhs1 ──────┐
+           ├────> Object A: Ilham
+mhs2 ──────┘
+
+Setelah perintah berikut dijalankan:
+
+mhs2 = new Mahasiswa("Budi");
+
+Java membuat objek baru, lalu mhs2 menyimpan referensi ke objek baru tersebut.
+mhs1 ───────────> Object A: Ilham
+
+mhs2 ───────────> Object B: Budi
+
+Objek pertama masih dapat diakses melalui mhs1. Oleh karena itu, nama yang dibaca melalui mhs1 tetap Ilham.
+
+Jika tidak ada lagi referensi yang dapat menjangkau suatu objek, objek tersebut berpotensi menjadi kandidat garbage collection. 
+Namun, waktu penghapusannya tidak bisa dipastikan hanya dari perubahan referensi.
+*/
