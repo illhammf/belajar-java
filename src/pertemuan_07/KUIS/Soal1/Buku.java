@@ -32,3 +32,22 @@ public class Buku {
         buku2.tampilkanInfo();
     }
 }
+
+/*
+Penjelasan konsep:
+
+Konsep	            Implementasi
+Class	            Buku
+Attribute	        judul, penulis, tahunTerbit
+Constructor	        public Buku(...)
+Object	            buku1 dan buku2
+Method	            tampilkanInfo()
+Pemanggilan method	buku1.tampilkanInfo() dan buku2.tampilkanInfo()
+
+
+Kenapa atributnya belum menggunakan private?
+
+Pada soal pertama, PPT hanya meminta class, atribut, constructor, method, dan dua objek. 
+Penggunaan private, getter, setter, serta validasi data menjadi persyaratan eksplisit pada soal kedua dan ketiga. 
+Jadi, implementasi ini mengikuti instruksi soal pertama tanpa menambahkan kompleksitas yang tidak diperlukan.
+*/
