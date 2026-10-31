@@ -1,13 +1,11 @@
 package pertemuan_07.KUIS.Soal3.pakai_scanner;
 
 public class Barang {
-    // Atribut private
     private String kodeBarang;
     private String namaBarang;
     private double harga;
     private int stok;
 
-    // Constructor dengan validasi harga dan stok
     public Barang(String kodeBarang, String namaBarang, double harga, int stok) {
         if (harga <= 0 || !Double.isFinite(harga)) {
             throw new IllegalArgumentException("Harga harus lebih dari 0!");
@@ -23,7 +21,6 @@ public class Barang {
         this.stok = stok;
     }
 
-    // Getter
     public String getKodeBarang() {
         return kodeBarang;
     }
@@ -40,7 +37,6 @@ public class Barang {
         return stok;
     }
 
-    // Menambah stok jika jumlah valid
     public boolean tambahStok(int jumlah) {
         if (jumlah <= 0) {
             System.out.println("Gagal! Jumlah stok harus lebih dari 0.");
@@ -56,11 +52,9 @@ public class Barang {
 
         System.out.println("Stok berhasil ditambahkan.");
         System.out.println("Stok sekarang: " + stok);
-
         return true;
     }
 
-    // Menjual barang jika jumlah valid dan stok mencukupi
     public boolean jualBarang(int jumlah) {
         if (jumlah <= 0) {
             System.out.println("Gagal! Jumlah pembelian harus lebih dari 0.");
@@ -77,18 +71,18 @@ public class Barang {
         return true;
     }
 
-    // Menghitung total pembayaran setelah diskon
+    // Menghitung total pembayaran tanpa mengubah stok
     public double hitungTotal(int jumlah) {
-        if (jumlah <= 0 || jumlah > stok) {
+        if (jumlah <= 0) {
             throw new IllegalArgumentException(
-                    "Jumlah pembelian tidak valid!"
+                    "Jumlah pembelian harus lebih dari 0!"
             );
         }
 
         double subtotal = harga * jumlah;
 
         if (subtotal >= 500000) {
-            return subtotal * 0.90;
+            return subtotal - (subtotal * 0.10);
         }
 
         return subtotal;
