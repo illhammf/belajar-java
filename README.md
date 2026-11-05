@@ -6,7 +6,7 @@ Repository ini dibuat sebagai catatan belajar sekaligus dokumentasi praktik codi
 
 ---
 
-## 📚 Materi Pembelajaran
+## Materi Pembelajaran
 
 | Pertemuan | Materi | Status |
 |---|---|---|
@@ -43,7 +43,7 @@ Panduan instalasi dan konfigurasi dapat dilihat pada:
 
 ---
 
-## 📂 Struktur Repository
+## Struktur Repository
 
 ```text
 Belajar Java/
@@ -73,7 +73,7 @@ Belajar Java/
 
 ---
 
-## 🎯 Tujuan Repository
+## Tujuan Repository
 
 Repository ini dibuat untuk mendokumentasikan proses belajar Java secara bertahap dan terstruktur.
 
@@ -87,7 +87,7 @@ Materi tidak hanya berisi teori, tetapi juga dilengkapi dengan:
 
 ---
 
-## 📖 Progress
+## Progress
 
 Repository ini akan dikembangkan secara bertahap selama **14 pertemuan**.
 
@@ -107,7 +107,7 @@ Pertemuan 14  ░░░░░░░░░░░░░░░░░░░░   0%
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ilham Firmansyah**
 
