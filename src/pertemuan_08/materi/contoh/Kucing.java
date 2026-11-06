@@ -1,24 +1,31 @@
 package pertemuan_08.materi.contoh;
 
 // Subclass (Kelas Anak)
-// Kucing mewarisi class Hewan
 public class Kucing extends Hewan {
 
-    // Method khusus milik class Kucing
+    // Method khusus subclass
     public void bersuara() {
-        System.out.println("Kucing mengeluarkan suara: Meow!");
+        System.out.println(nama + " mengeluarkan suara: Meow!");
     }
 
     public static void main(String[] args) {
 
-        // Membuat objek dari class Kucing
+        // Membuat objek Kucing
         Kucing kucing = new Kucing();
 
-        // Memanggil method milik superclass
+        // Mengisi atribut warisan dari superclass
+        kucing.nama = "Milo";
+        kucing.umur = 2;
+
+        // Menampilkan atribut
+        System.out.println("Nama: " + kucing.nama);
+        System.out.println("Umur: " + kucing.umur + " tahun");
+
+        // Memanggil method superclass
         kucing.makan();
         kucing.tidur();
 
-        // Memanggil method milik subclass
+        // Memanggil method subclass
         kucing.bersuara();
     }
 }
