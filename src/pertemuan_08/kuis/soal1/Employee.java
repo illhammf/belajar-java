@@ -18,6 +18,6 @@ public class Employee {
     public void tampilkanInfo() {
         System.out.println("Nama     : " + nama);
         System.out.println("Jabatan  : " + jabatan);
-        System.out.println("Gaji     : Rp" + gaji);
+        System.out.printf("Gaji     : Rp%.0f%n", gaji);
     }
 }
