@@ -1,47 +1,54 @@
-# Materi Pertemuan 8 — Inheritance (Basic)
+# Materi — Inheritance Basic
 
-## Deskripsi
+Folder ini berisi implementasi dasar konsep **Inheritance (Pewarisan)** menggunakan bahasa pemrograman Java.
 
-Folder ini berisi materi pembelajaran Object Oriented Programming (OOP) menggunakan bahasa Java dengan topik **Inheritance (Pewarisan)**.
+Pada contoh ini, digunakan dua class, yaitu `Hewan` sebagai superclass (kelas induk) dan `Kucing` sebagai subclass (kelas anak).
 
-Inheritance merupakan salah satu konsep utama dalam OOP yang memungkinkan sebuah class mewarisi atribut (field) dan method dari class lain. Dengan konsep ini, programmer dapat menggunakan kembali kode yang sudah dibuat tanpa harus menuliskan ulang seluruh atribut dan method.
+Class `Kucing` mewarisi atribut dan method dari class `Hewan`. Dengan demikian, class `Kucing` dapat menggunakan atribut `nama`, `umur`, serta method `makan()` dan `tidur()` tanpa harus mendefinisikannya kembali.
 
-Materi ini berfokus pada dasar-dasar Inheritance, pengenalan superclass dan subclass, serta implementasi pewarisan sederhana menggunakan Java.
+## 📚 Daftar Isi
 
-## Tujuan Pembelajaran
+- [Struktur Class](#-struktur-class)
+- [1. Superclass — Hewan.java](#1-superclass--hewanjava)
+- [2. Subclass — Kucing.java](#2-subclass--kucingjava)
+- [3. Penjelasan Sintaks Penting](#3-penjelasan-sintaks-penting)
+- [4. Konsep Inheritance pada Program](#4-konsep-inheritance-pada-program)
+- [5. Output Program](#5-output-program)
+- [Kesimpulan](#-kesimpulan)
 
-Setelah mempelajari materi ini, diharapkan mahasiswa mampu:
+## 📂 Struktur Class
 
-1. Memahami pengertian dan konsep dasar Inheritance.
-2. Mengetahui perbedaan Superclass dan Subclass.
-3. Memahami penggunaan keyword `extends` dalam Java.
-4. Memahami manfaat penggunaan Inheritance dalam pemrograman berorientasi objek.
-5. Membuat dan mengimplementasikan Inheritance sederhana menggunakan Java.
+```text
+materi/
+└── contoh/
+    ├── Hewan.java
+    └── Kucing.java
+```
 
-## Daftar Materi
+Keterangan:
 
-### 1. Pengertian Inheritance
+| File | Fungsi |
+|---|---|
+| `Hewan.java` | Superclass yang menyimpan atribut dan method umum untuk hewan |
+| `Kucing.java` | Subclass yang mewarisi class `Hewan` dan memiliki method tambahan |
 
-Inheritance atau pewarisan adalah mekanisme dalam Java yang memungkinkan sebuah class memperoleh atribut dan method dari class lain.
+## 1. Superclass — Hewan.java
 
-Class yang memberikan pewarisan disebut **Superclass (kelas induk)**, sedangkan class yang menerima pewarisan disebut **Subclass (kelas anak)**.
+Class `Hewan` berperan sebagai kelas induk yang menyediakan atribut dan method umum yang dapat digunakan oleh kelas turunannya.
 
-Subclass dapat menggunakan kembali fitur yang dimiliki superclass serta menambahkan atribut dan method baru sesuai kebutuhannya.
-
-### 2. Superclass (Kelas Induk)
-
-Superclass merupakan class yang menjadi sumber pewarisan bagi class lain.
-
-Superclass biasanya berisi atribut dan method umum yang dapat digunakan oleh beberapa subclass.
-
-Contoh:
+### Source Code
 
 ```java
+package pertemuan_08.materi.contoh;
+
+// Superclass (Kelas Induk)
 public class Hewan {
 
+    // Atribut superclass
     protected String nama;
     protected int umur;
 
+    // Method superclass
     public void makan() {
         System.out.println(nama + " sedang makan.");
     }
@@ -52,111 +59,359 @@ public class Hewan {
 }
 ```
 
-Pada contoh tersebut, `Hewan` merupakan superclass yang memiliki atribut `nama` dan `umur`, serta method `makan()` dan `tidur()`.
+### Penjelasan Kode
 
-### 3. Subclass (Kelas Anak)
-
-Subclass merupakan class yang mewarisi atribut dan method dari superclass.
-
-Dalam Java, pewarisan class dilakukan menggunakan keyword `extends`.
-
-Contoh:
+**1. Package Declaration**
 
 ```java
+package pertemuan_08.materi.contoh;
+```
+
+`package` digunakan untuk menentukan lokasi atau kelompok class dalam struktur project Java.
+
+Pada program ini, class `Hewan` dan `Kucing` berada dalam package `pertemuan_08.materi.contoh`.
+
+**2. Deklarasi Class**
+
+```java
+public class Hewan {
+```
+
+- `public` merupakan access modifier yang memungkinkan class diakses dari class lain sesuai aturan package dan akses Java.
+- `class` merupakan keyword untuk mendefinisikan sebuah kelas.
+- `Hewan` merupakan nama class yang digunakan sebagai superclass.
+
+**3. Atribut dengan Access Modifier Protected**
+
+```java
+protected String nama;
+protected int umur;
+```
+
+Kedua variabel tersebut merupakan atribut yang dimiliki oleh class `Hewan`.
+
+- `protected` merupakan access modifier yang memungkinkan atribut diakses oleh class dalam package yang sama serta subclass, termasuk subclass yang berada di package berbeda melalui aturan akses Java.
+- `String` merupakan tipe data untuk menyimpan teks.
+- `int` merupakan tipe data untuk menyimpan bilangan bulat.
+- `nama` dan `umur` merupakan nama variabel.
+
+Penggunaan `protected` memungkinkan subclass `Kucing` mengakses atribut yang diwariskan dari superclass `Hewan`.
+
+**4. Method makan()**
+
+```java
+public void makan() {
+    System.out.println(nama + " sedang makan.");
+}
+```
+
+Method `makan()` digunakan untuk menampilkan aktivitas makan.
+
+Penjelasan sintaks:
+
+- `public` membuat method dapat diakses dari luar class.
+- `void` menunjukkan bahwa method tidak mengembalikan nilai.
+- `makan()` merupakan nama method.
+- `System.out.println()` digunakan untuk menampilkan teks ke console.
+- `nama` mengambil nilai atribut yang dimiliki objek.
+
+**5. Method tidur()**
+
+```java
+public void tidur() {
+    System.out.println(nama + " sedang tidur.");
+}
+```
+
+Method `tidur()` memiliki fungsi untuk menampilkan aktivitas tidur.
+
+Kedua method tersebut nantinya dapat digunakan langsung oleh subclass karena diwariskan melalui inheritance.
+
+## 2. Subclass — Kucing.java
+
+Class `Kucing` merupakan kelas turunan dari `Hewan`.
+
+Melalui keyword `extends`, class `Kucing` dapat menggunakan atribut dan method yang telah didefinisikan dalam superclass.
+
+### Source Code
+
+```java
+package pertemuan_08.materi.contoh;
+
+// Subclass (Kelas Anak)
 public class Kucing extends Hewan {
 
+    // Method khusus subclass
     public void bersuara() {
         System.out.println(nama + " mengeluarkan suara: Meow!");
+    }
+
+    public static void main(String[] args) {
+
+        // Membuat objek Kucing
+        Kucing kucing = new Kucing();
+
+        // Mengisi atribut warisan dari superclass
+        kucing.nama = "Milo";
+        kucing.umur = 2;
+
+        // Menampilkan atribut
+        System.out.println("Nama: " + kucing.nama);
+        System.out.println("Umur: " + kucing.umur + " tahun");
+
+        // Memanggil method superclass
+        kucing.makan();
+        kucing.tidur();
+
+        // Memanggil method subclass
+        kucing.bersuara();
     }
 }
 ```
 
-Pada contoh tersebut, `Kucing` merupakan subclass dari `Hewan`.
+### Penjelasan Kode
 
-Karena menggunakan keyword `extends`, class `Kucing` dapat menggunakan atribut `nama` dan `umur`, serta method `makan()` dan `tidur()` yang diwariskan dari class `Hewan`.
-
-Class `Kucing` juga memiliki method tambahan yaitu `bersuara()`.
-
-### 4. Keyword extends
-
-Keyword `extends` digunakan untuk menunjukkan bahwa sebuah class merupakan turunan dari class lain.
-
-Bentuk umum:
-
-```java
-class NamaSubclass extends NamaSuperclass {
-    // Atribut dan method tambahan
-}
-```
-
-Contoh:
+**1. Deklarasi Subclass dengan extends**
 
 ```java
 public class Kucing extends Hewan {
-    // Class Kucing mewarisi class Hewan
+```
+
+Keyword `extends` digunakan untuk menghubungkan subclass dengan superclass.
+
+Dalam kode tersebut:
+
+- `Kucing` merupakan subclass.
+- `Hewan` merupakan superclass.
+- `extends` menunjukkan bahwa `Kucing` mewarisi fitur dari `Hewan`.
+
+Karena hubungan inheritance tersebut, class `Kucing` dapat menggunakan atribut `nama`, `umur`, serta method `makan()` dan `tidur()`.
+
+**2. Method Khusus Subclass**
+
+```java
+public void bersuara() {
+    System.out.println(nama + " mengeluarkan suara: Meow!");
 }
 ```
 
-Dengan menggunakan `extends`, subclass dapat menggunakan fitur yang diwariskan dari superclass sesuai aturan akses yang berlaku.
+Method `bersuara()` merupakan method tambahan yang dibuat khusus untuk class `Kucing`.
 
-### 5. Mengapa Inheritance Dibutuhkan?
+Method ini tidak berasal dari superclass `Hewan`, melainkan didefinisikan langsung di dalam subclass.
 
-Berdasarkan materi perkuliahan, Inheritance memiliki beberapa kegunaan:
+Menariknya, method ini tetap dapat menggunakan atribut `nama` karena atribut tersebut diwariskan dari superclass.
 
-**a. Code Reusability (Penggunaan Ulang Kode)**
+**3. Method main()**
 
-Atribut dan method yang sudah ditulis dalam superclass dapat digunakan kembali oleh subclass. Hal ini membantu mengurangi penulisan kode yang berulang.
+```java
+public static void main(String[] args) {
+```
 
-**b. Method Overriding**
+Method `main()` merupakan titik awal eksekusi program Java.
 
-Inheritance memungkinkan subclass menggantikan implementasi method yang berasal dari superclass dengan implementasi yang sesuai kebutuhan subclass.
+Penjelasan sintaks:
 
-Konsep ini dikenal sebagai method overriding dan menjadi salah satu cara Java mendukung Runtime Polymorphism.
+- `public`: Method dapat diakses oleh JVM.
+- `static`: Method dapat dijalankan tanpa harus membuat objek terlebih dahulu untuk class yang mendefinisikannya.
+- `void`: Method tidak mengembalikan nilai.
+- `main`: Nama method utama yang dikenali JVM.
+- `String[] args`: Parameter untuk menerima argumen berupa kumpulan teks dari command line.
 
-**c. Abstraction**
+**4. Membuat Objek**
 
-Inheritance juga berkaitan dengan abstraksi, yaitu konsep yang memungkinkan detail implementasi disembunyikan sehingga pengguna cukup mengetahui fungsionalitas yang tersedia.
+```java
+Kucing kucing = new Kucing();
+```
 
-## Struktur Folder
+Baris tersebut digunakan untuk membuat objek dari class `Kucing`.
+
+Penjelasan:
+
+- `Kucing` merupakan tipe data atau class yang digunakan.
+- `kucing` merupakan nama variabel referensi objek.
+- `new` merupakan keyword untuk membuat objek baru.
+- `Kucing()` merupakan pemanggilan constructor.
+
+Objek `kucing` nantinya dapat menggunakan atribut dan method milik class `Kucing` maupun fitur yang diwarisi dari `Hewan`.
+
+**5. Mengisi Atribut Warisan**
+
+```java
+kucing.nama = "Milo";
+kucing.umur = 2;
+```
+
+Kode tersebut digunakan untuk memberikan nilai pada atribut `nama` dan `umur`.
+
+Meskipun kedua atribut didefinisikan dalam class `Hewan`, objek `kucing` dapat mengaksesnya karena class `Kucing` merupakan subclass dari `Hewan` dan kedua atribut memiliki access modifier `protected`.
+
+Nilai yang diberikan:
+
+- `nama` diisi dengan `"Milo"`.
+- `umur` diisi dengan `2`.
+
+**6. Menampilkan Atribut**
+
+```java
+System.out.println("Nama: " + kucing.nama);
+System.out.println("Umur: " + kucing.umur + " tahun");
+```
+
+`System.out.println()` digunakan untuk menampilkan informasi ke console.
+
+Operator `+` digunakan untuk menggabungkan teks dengan nilai atribut objek.
+
+Hasilnya akan menampilkan nama dan umur kucing.
+
+**7. Memanggil Method dari Superclass**
+
+```java
+kucing.makan();
+kucing.tidur();
+```
+
+Kedua method tersebut sebenarnya didefinisikan di dalam class `Hewan`.
+
+Namun, objek `kucing` tetap dapat memanggilnya karena class `Kucing` mewarisi class `Hewan`.
+
+Inilah salah satu penerapan utama inheritance, yaitu menggunakan kembali method dari kelas induk tanpa harus menuliskan ulang kodenya.
+
+**8. Memanggil Method dari Subclass**
+
+```java
+kucing.bersuara();
+```
+
+Berbeda dengan `makan()` dan `tidur()`, method `bersuara()` didefinisikan langsung di dalam class `Kucing`.
+
+Method ini digunakan untuk menampilkan suara khas kucing.
+
+Dengan demikian, objek `kucing` dapat menggunakan method yang diwariskan dari superclass sekaligus method khusus milik subclass.
+
+## 3. Penjelasan Sintaks Penting
+
+Berikut beberapa keyword dan sintaks Java yang berkaitan dengan materi inheritance.
+
+### A. extends
+
+```java
+class Kucing extends Hewan {
+}
+```
+
+`extends` digunakan untuk membuat hubungan pewarisan antara superclass dan subclass.
+
+Dengan keyword ini, subclass dapat menggunakan fitur yang diwariskan dari superclass.
+
+### B. protected
+
+```java
+protected String nama;
+```
+
+`protected` merupakan access modifier yang memberikan akses kepada class dalam package yang sama dan subclass, dengan tetap mengikuti aturan akses Java.
+
+Access modifier ini sering digunakan ketika sebuah atribut atau method memang ditujukan untuk digunakan oleh kelas turunannya.
+
+### C. @Override
+
+```java
+@Override
+public void makan() {
+    System.out.println("Kucing sedang makan.");
+}
+```
+
+`@Override` merupakan annotation yang digunakan untuk menandai bahwa sebuah method di subclass dimaksudkan untuk menggantikan implementasi method yang diwarisi dari superclass.
+
+Contohnya, jika superclass `Hewan` memiliki method `makan()`, subclass `Kucing` dapat membuat implementasi `makan()` sendiri.
+
+Dengan demikian, ketika `makan()` dipanggil melalui objek `Kucing`, implementasi milik `Kucing` yang dijalankan.
+
+**Catatan:** Annotation `@Override` belum digunakan pada contoh program `Hewan.java` dan `Kucing.java` di atas. Potongan kode tersebut merupakan contoh tambahan untuk memahami konsep method overriding.
+
+### D. super
+
+```java
+@Override
+public void makan() {
+    super.makan();
+    System.out.println("Kucing sedang makan ikan.");
+}
+```
+
+Keyword `super` digunakan untuk mengakses anggota superclass dari dalam subclass.
+
+Pada contoh tersebut, `super.makan()` digunakan untuk memanggil implementasi method `makan()` milik superclass `Hewan`.
+
+Setelah itu, subclass menambahkan instruksi sendiri.
+
+**Catatan:** Penggunaan `super` juga merupakan contoh tambahan dan tidak terdapat dalam source code utama.
+
+### E. new
+
+```java
+Kucing kucing = new Kucing();
+```
+
+Keyword `new` digunakan untuk membuat objek baru dari sebuah class.
+
+Objek merupakan hasil instansiasi class yang dapat digunakan untuk mengakses atribut dan method sesuai aturan akses Java.
+
+### F. void
+
+```java
+public void bersuara() {
+}
+```
+
+`void` menunjukkan bahwa sebuah method tidak mengembalikan nilai.
+
+Method tersebut dapat menjalankan instruksi seperti menampilkan teks atau melakukan proses lainnya tanpa menggunakan perintah `return` untuk mengembalikan nilai.
+
+### G. System.out.println()
+
+```java
+System.out.println("Hello Java");
+```
+
+Digunakan untuk menampilkan teks atau nilai ke console dan secara otomatis membuat baris baru setelah output ditampilkan.
+
+---
+
+## 4. Konsep Inheritance pada Program
+
+Berdasarkan implementasi di atas, hubungan antara kedua class dapat digambarkan sebagai berikut:
 
 ```text
-materi/
-├── README.md
-└── contoh/
-    ├── Hewan.java
-    └── Kucing.java
+          Hewan
+       (Superclass)
+             |
+          extends
+             |
+          Kucing
+        (Subclass)
 ```
 
-## Penjelasan Contoh Program
+Class `Hewan` menyediakan atribut dan method umum, sedangkan class `Kucing` mewarisi fitur tersebut dan menambahkan perilaku khusus berupa method `bersuara()`.
 
-Contoh program yang terdapat dalam folder `contoh` menggunakan kasus pewarisan antara class `Hewan` dan `Kucing`.
+Berikut pembagian fitur setiap class:
 
-| File | Keterangan |
-|---|---|
-| `Hewan.java` | Superclass yang memiliki atribut `nama`, `umur`, serta method `makan()` dan `tidur()`. |
-| `Kucing.java` | Subclass yang mewarisi class `Hewan` dan memiliki method tambahan `bersuara()`. |
+| Fitur | Hewan | Kucing |
+|---|---|---|
+| `nama` | Atribut | Diwarisi |
+| `umur` | Atribut | Diwarisi |
+| `makan()` | Method | Diwarisi |
+| `tidur()` | Method | Diwarisi |
+| `bersuara()` | - | Method sendiri |
 
-Melalui program tersebut, kita dapat melihat bahwa objek `Kucing` dapat menggunakan atribut dan method dari class `Hewan` tanpa perlu mendefinisikannya kembali.
+Melalui contoh ini, dapat dipahami bahwa subclass tidak harus membuat ulang seluruh atribut dan method yang sudah tersedia pada superclass.
 
-## Cara Menjalankan Program
+Subclass cukup menggunakan fitur yang diwariskan dan menambahkan fungsionalitas baru sesuai kebutuhan.
 
-Pastikan Java Development Kit (JDK) sudah terpasang dan dapat digunakan melalui terminal.
+## 5. Output Program
 
-Masuk ke folder `contoh`, kemudian jalankan perintah berikut:
-
-**1. Compile program**
-
-```bash
-javac Hewan.java Kucing.java
-```
-
-**2. Jalankan program**
-
-```bash
-java Kucing
-```
-
-**3. Output program**
+Apabila program dijalankan, hasil yang ditampilkan pada console adalah:
 
 ```text
 Nama: Milo
@@ -166,19 +421,51 @@ Milo sedang tidur.
 Milo mengeluarkan suara: Meow!
 ```
 
-## Kesimpulan
+Output tersebut menunjukkan bahwa objek `kucing` berhasil menggunakan:
 
-Inheritance merupakan konsep OOP yang memungkinkan sebuah class mewarisi atribut dan method dari class lain.
+1. Atribut `nama` dan `umur` dari superclass.
+2. Method `makan()` dari superclass.
+3. Method `tidur()` dari superclass.
+4. Method `bersuara()` dari subclass.
 
-Dengan adanya superclass dan subclass, program dapat disusun menjadi lebih terstruktur serta mendukung penggunaan ulang kode.
+## ▶️ Cara Menjalankan Program
 
-Penggunaan keyword `extends` menjadi dasar implementasi Inheritance dalam Java.
+Pastikan Java Development Kit (JDK) sudah terpasang.
 
-Materi ini menjadi dasar untuk memahami Inheritance lebih lanjut, termasuk berbagai tipe pewarisan dan implementasinya dalam studi kasus pada pertemuan berikutnya.
+Masuk ke direktori project utama, kemudian jalankan perintah berikut:
+
+```bash
+javac -d out src/pertemuan_08/materi/contoh/*.java
+```
+
+Setelah proses kompilasi selesai, jalankan program menggunakan:
+
+```bash
+java -cp out pertemuan_08.materi.contoh.Kucing
+```
+
+Perintah tersebut mengasumsikan struktur direktori source sesuai package yang digunakan dalam program.
 
 ---
 
-**Mata Kuliah:** Object Oriented Programming (PBO)  
-**Pertemuan:** 8  
-**Topik:** Inheritance (Basic)  
-**Bahasa Pemrograman:** Java
+## 📝 Kesimpulan
+
+Melalui contoh program `Hewan` dan `Kucing`, dapat dipahami bahwa inheritance memungkinkan sebuah class mewarisi atribut dan method dari class lain.
+
+Class `Hewan` berperan sebagai superclass yang menyediakan atribut `nama`, `umur`, serta method `makan()` dan `tidur()`.
+
+Sementara itu, class `Kucing` menjadi subclass yang menggunakan keyword `extends` untuk mewarisi fitur dari `Hewan` dan menambahkan method khusus berupa `bersuara()`.
+
+Beberapa sintaks penting yang perlu dipahami dalam implementasi ini adalah `extends`, `protected`, `public`, `void`, `new`, serta annotation `@Override` dan keyword `super` sebagai konsep tambahan dalam inheritance.
+
+Dengan memahami contoh ini, mahasiswa diharapkan mampu membuat hubungan pewarisan antarkelas dan menerapkannya dalam program Java yang lebih kompleks.
+
+---
+
+**Author:** Ilham Firmansyah
+
+**Course:** Object-Oriented Programming (CSF308)
+
+**Topic:** Inheritance Basic
+
+**Language:** Java
