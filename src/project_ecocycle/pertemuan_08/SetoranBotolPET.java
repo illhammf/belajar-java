@@ -39,3 +39,19 @@ public class SetoranBotolPET extends SetoranPlastik {
         );
     }
 }
+
+/*
+Hubungan pewarisannya:
+SetoranSampah
+      |
+      v
+SetoranPlastik
+      |
+      v
+SetoranBotolPET
+
+- SetoranBotolPET mendapatkan fitur dari SetoranPlastik, sekaligus mewarisi fitur yang berasal dari SetoranSampah.
+- Selain itu, SetoranBotolPET juga mewarisi implementasi interface DapatDidaurUlang dari SetoranPlastik, 
+  lalu melakukan overriding terhadap method prosesDaurUlang().
+- Inilah contoh Multilevel Inheritance.
+*/
