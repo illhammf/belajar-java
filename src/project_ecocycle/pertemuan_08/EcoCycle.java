@@ -1,11 +1,12 @@
 package project_ecocycle.pertemuan_08;
 
 public class EcoCycle {
-
+    // Method utama untuk menjalankan aplikasi EcoCycle.
     public static void main(String[] args) {
-        jalankanAplikasi();
+        jalankanAplikasi(); // Memanggil method untuk menjalankan aplikasi.
     }
 
+    // Method untuk menjalankan logika utama aplikasi.
     static void jalankanAplikasi() {
         tampilkanJudul();
 
@@ -66,6 +67,7 @@ public class EcoCycle {
         System.out.println("Total seluruh setoran : Rp" + formatRupiah(totalSetoran));
     }
 
+    // Method untuk menampilkan judul aplikasi.
     static void tampilkanJudul() {
         System.out.println("====================================");
         System.out.println("       EcoCycle - Bank Sampah");
