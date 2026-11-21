@@ -1,10 +1,16 @@
 # Belajar Java
 
-Repository ini berisi dokumentasi pembelajaran **Java dan Pemrograman Berorientasi Objek (PBO)** yang disusun berdasarkan materi perkuliahan selama 14 pertemuan.
+Repository ini merupakan dokumentasi pembelajaran **Java Programming** dan **Pemrograman Berorientasi Objek (Object-Oriented Programming/OOP)** yang disusun berdasarkan materi perkuliahan selama 14 pertemuan.
 
-Repository ini dibuat sebagai media pembelajaran, catatan materi, serta dokumentasi praktik coding Java. Pembahasan dimulai dari pengenalan pemrograman berorientasi objek, fundamental Java, hingga penerapan berbagai konsep Object-Oriented Programming (OOP) dalam pengembangan program.
+Repository ini dibuat sebagai media belajar, dokumentasi praktik pemrograman, sekaligus arsip perkembangan kemampuan dalam memahami dan mengimplementasikan bahasa pemrograman Java.
 
-Selain mempelajari materi melalui contoh program dan latihan, repository ini juga dilengkapi dengan pengembangan project **EcoCycle (Bank Sampah)** sebagai implementasi materi perkuliahan secara bertahap.
+Pembelajaran disusun secara bertahap, dimulai dari pengenalan Object-Oriented Programming, tipe data, variabel, method, expression, control statement, function, dan parameter. Selanjutnya, pembahasan berlanjut pada berbagai konsep OOP seperti encapsulation, memory management, inheritance, dan materi lainnya sesuai dengan kurikulum perkuliahan.
+
+Setiap materi dilengkapi dengan dokumentasi penjelasan, contoh implementasi kode, serta latihan atau kuis apabila tersedia. Dengan demikian, repository ini tidak hanya berfungsi sebagai tempat penyimpanan source code, tetapi juga sebagai referensi untuk memahami konsep pemrograman secara lebih terstruktur.
+
+Selain pembelajaran berdasarkan materi perkuliahan, repository ini juga memiliki project praktik bernama **EcoCycle (Bank Sampah)**. Project tersebut dikembangkan secara bertahap dengan menerapkan seluruh materi yang telah dipelajari dari pertemuan sebelumnya hingga pertemuan yang sedang dikerjakan.
+
+Melalui pendekatan ini, setiap perkembangan project dapat dipelajari, dibandingkan, dan dijadikan contoh penerapan teori ke dalam sebuah program Java.
 
 ---
 
@@ -19,9 +25,9 @@ Berikut merupakan daftar materi yang dipelajari berdasarkan urutan pertemuan per
 | [Pertemuan 03](src/pertemuan_03/) | Control Statement | ✅ |
 | [Pertemuan 04](src/pertemuan_04/) | Function and Parameter | ✅ |
 | [Pertemuan 05](src/pertemuan_05/) | Encapsulation (Concept) | ✅ |
-| [Pertemuan 06](src/pertemuan_06/) | Encapsulation (Lanjutan) | ✅ |
+| [Pertemuan 06](src/pertemuan_06/) | Implementation Encapsulations in Case Study | ✅ |
 | [Pertemuan 07](src/pertemuan_07/) | Memory Management | ✅ |
-| [Pertemuan 08](src/pertemuan_08/) | Inheritance (Basic) | ✅ |
+| [Pertemuan 08](src/pertemuan_08/) | Inheritance (Basic & Case Study) | ✅ |
 | Pertemuan 09 | - | ⏳ |
 | Pertemuan 10 | - | ⏳ |
 | Pertemuan 11 | - | ⏳ |
@@ -35,9 +41,7 @@ Berikut merupakan daftar materi yang dipelajari berdasarkan urutan pertemuan per
 
 ## 📈 Learning Progress
 
-Repository ini direncanakan mencakup **14 pertemuan pembelajaran**.
-
-Berikut merupakan progress penyelesaian materi dan dokumentasi setiap pertemuan.
+Repository ini direncanakan mencakup 14 pertemuan pembelajaran. Progress berikut menunjukkan perkembangan penyelesaian materi dan dokumentasi setiap pertemuan.
 
 ```text
 Pertemuan 01  ████████████████████ 100%
@@ -58,68 +62,84 @@ Pertemuan 14  ░░░░░░░░░░░░░░░░░░░░   0%
 
 **Progress pembelajaran: 8 dari 14 pertemuan (57,14%).**
 
-> Progress akan diperbarui seiring dengan bertambahnya materi, contoh program, latihan, dan dokumentasi setiap pertemuan.
+> Progress akan diperbarui seiring bertambahnya materi, contoh program, latihan, dan dokumentasi setiap pertemuan.
 
 ---
 
 ## ♻️ Project Implementation — EcoCycle
 
-**EcoCycle** merupakan project simulasi sistem bank sampah yang dikembangkan menggunakan Java dengan pendekatan Object-Oriented Programming (OOP).
+**EcoCycle** merupakan project simulasi sistem bank sampah yang dikembangkan menggunakan bahasa pemrograman Java dengan menerapkan konsep Object-Oriented Programming (OOP).
 
-Project ini digunakan sebagai media praktik untuk menerapkan konsep-konsep pemrograman yang telah dipelajari selama perkuliahan.
+Project ini dibuat sebagai sarana praktik untuk mengimplementasikan materi yang telah dipelajari selama perkuliahan ke dalam sebuah program yang memiliki struktur dan permasalahan yang lebih terarah.
 
-Pengembangan dilakukan secara bertahap berdasarkan materi setiap pertemuan. Setiap tahap pengembangan memiliki folder tersendiri agar perkembangan source code dapat dipelajari dan dibandingkan tanpa mengubah implementasi dari pertemuan sebelumnya.
+Dalam pengembangannya, EcoCycle menggunakan pendekatan bertahap dan kumulatif. Artinya, setiap versi project tidak hanya menerapkan materi pada pertemuan tersebut, tetapi juga mempertahankan dan mengembangkan seluruh konsep dari pertemuan-pertemuan sebelumnya.
+
+Sebagai contoh, ketika project memasuki Pertemuan 05, implementasinya sudah mencakup materi Pertemuan 01 hingga Pertemuan 05. Begitu juga pada Pertemuan 08, project sudah mengintegrasikan materi dari Pertemuan 01 hingga Pertemuan 08.
+
+Dengan pendekatan ini, setiap folder pertemuan merepresentasikan perkembangan project dari waktu ke waktu.
 
 ### Tujuan Pengembangan
 
-- Menerapkan teori pemrograman ke dalam sebuah project.
-- Memahami hubungan antara class, object, atribut, dan method.
-- Mengembangkan kemampuan dalam menerapkan konsep OOP.
-- Memahami perkembangan struktur program berdasarkan materi perkuliahan.
-- Membiasakan penggunaan struktur kode yang terorganisasi dan mudah dikembangkan.
+- Menerapkan konsep Java dan OOP ke dalam sebuah project praktik.
+- Memahami hubungan antara class, object, attribute, constructor, dan method.
+- Mengimplementasikan konsep encapsulation, inheritance, dan konsep OOP lainnya.
+- Mengembangkan struktur program secara bertahap berdasarkan materi perkuliahan.
+- Memahami bagaimana suatu konsep pemrograman dapat digunakan untuk menyelesaikan permasalahan dalam sebuah aplikasi.
+- Membiasakan penulisan kode yang terstruktur, terorganisasi, dan mudah dikembangkan.
 
 ### Project Development Progress
 
-Berikut merupakan tahapan pengembangan EcoCycle berdasarkan pertemuan yang telah dikerjakan.
+Berikut merupakan tahapan pengembangan EcoCycle berdasarkan materi perkuliahan yang telah dipelajari.
 
-| Pertemuan | Implementasi | Konsep / Pengembangan | Status |
+| Pertemuan | Implementasi Project | Konsep / Materi yang Diterapkan | Status |
 |---|---|---|---|
-| [Pertemuan 03](src/project_ecocycle/pertemuan_03/) | EcoCycle | Implementasi awal project | 📁 |
-| [Pertemuan 04](src/project_ecocycle/pertemuan_04/) | EcoCycle | Pengembangan program berdasarkan materi perkuliahan | 📁 |
-| [Pertemuan 05](src/project_ecocycle/pertemuan_05/) | Sistem Setoran Sampah | Class, Object, Constructor, Encapsulation, Getter, Setter, dan Validasi Data | ✅ |
-| [Pertemuan 06](src/project_ecocycle/pertemuan_06/) | Pengembangan Sistem Setoran | Pengembangan struktur class dan pemisahan jenis setoran sampah | ✅ |
-| [Pertemuan 07](src/project_ecocycle/pertemuan_07/) | Sistem Setoran Kertas dan Plastik | Inheritance, Superclass, Subclass, Method Overriding, dan Polymorphism | ✅ |
-| [Pertemuan 08](src/project_ecocycle/pertemuan_08/) | Pengembangan Sistem Daur Ulang | Multilevel Inheritance, Interface, `extends`, `implements`, dan `super()` | ✅ |
-| Pertemuan 09 | - | Menyesuaikan materi perkuliahan | ⏳ |
-| Pertemuan 10 | - | Menyesuaikan materi perkuliahan | ⏳ |
-| Pertemuan 11 | - | Menyesuaikan materi perkuliahan | ⏳ |
-| Pertemuan 12 | - | Menyesuaikan materi perkuliahan | ⏳ |
-| Pertemuan 13 | - | Menyesuaikan materi perkuliahan | ⏳ |
-| Pertemuan 14 | - | Menyesuaikan materi perkuliahan | ⏳ |
+| [03](src/project_ecocycle/pertemuan_03/) | Implementasi Awal EcoCycle | Materi Pertemuan 01–03: Introduction to OOP, Data Type, Variable, Method, Expression, dan Control Statement | ✅ |
+| [04](src/project_ecocycle/pertemuan_04/) | Pengembangan Sistem EcoCycle | Seluruh materi sebelumnya + Function and Parameter | ✅ |
+| [05](src/project_ecocycle/pertemuan_05/) | Sistem Setoran Sampah | Seluruh materi sebelumnya + Encapsulation (Concept) | ✅ |
+| [06](src/project_ecocycle/pertemuan_06/) | Pengembangan Sistem Setoran | Seluruh materi sebelumnya + Implementation Encapsulations in Case Study | ✅ |
+| [07](src/project_ecocycle/pertemuan_07/) | Pengembangan Sistem EcoCycle | Seluruh materi sebelumnya + Memory Management | ✅ |
+| [08](src/project_ecocycle/pertemuan_08/) | Pengembangan Sistem EcoCycle | Seluruh materi sebelumnya + Inheritance (Basic & Case Study) | ✅ |
+| 09 | - | Materi Pertemuan 01–09 | ⏳ |
+| 10 | - | Materi Pertemuan 01–10 | ⏳ |
+| 11 | - | Materi Pertemuan 01–11 | ⏳ |
+| 12 | - | Materi Pertemuan 01–12 | ⏳ |
+| 13 | - | Materi Pertemuan 01–13 | ⏳ |
+| 14 | - | Materi Pertemuan 01–14 | ⏳ |
 
 **Keterangan status:**
-- ✅ Selesai — Implementasi dan dokumentasi telah dikerjakan.
-- 📁 Tersedia — Folder implementasi telah tersedia.
-- ⏳ Belum dikerjakan — Menunggu pengembangan berikutnya.
 
-> Setiap versi EcoCycle dikembangkan secara bertahap mengikuti materi perkuliahan. Detail implementasi dan source code dapat dilihat pada masing-masing folder pertemuan.
+- ✅ Selesai — Implementasi project pada tahap tersebut telah dikerjakan.
+- ⏳ Belum dikerjakan — Menunggu pengembangan sesuai materi berikutnya.
+
+> Setiap versi EcoCycle merupakan pengembangan kumulatif. Materi sebelumnya tetap menjadi bagian dari implementasi, sedangkan materi baru digunakan untuk memperluas dan menyempurnakan kemampuan project.
+
+### Dokumentasi Project
+
+Seluruh source code pengembangan EcoCycle dapat ditemukan pada direktori:
+
+```text
+src/project_ecocycle/
+```
+
+Setiap folder pertemuan memiliki implementasi tersendiri sehingga perkembangan program dapat dipelajari dan dibandingkan secara berurutan.
 
 ---
 
 ## 🛠️ Development Environment
 
-Repository ini dikembangkan menggunakan beberapa tools dan teknologi berikut:
+Pembelajaran dan pengembangan project dalam repository ini menggunakan beberapa tools dan teknologi berikut.
 
 | Tools | Keterangan |
 |---|---|
-| Java JDK 25 | Java Development Kit |
-| Visual Studio Code | Code Editor |
-| Extension Pack for Java | Ekstensi untuk pengembangan Java di VS Code |
-| Git & GitHub | Version Control dan pengelolaan repository |
+| Java JDK 25 | Java Development Kit untuk kompilasi dan menjalankan program Java |
+| Visual Studio Code | Code editor untuk menulis dan mengelola source code |
+| Extension Pack for Java | Ekstensi pendukung pengembangan Java di Visual Studio Code |
+| Git | Version control untuk mengelola perubahan source code |
+| GitHub | Platform untuk menyimpan dan mendokumentasikan repository |
 
 ### Panduan Instalasi
 
-Untuk menyiapkan lingkungan pengembangan Java, silakan kunjungi dokumentasi berikut:
+Untuk memulai pembelajaran, silakan mengikuti panduan instalasi dan konfigurasi Java berikut:
 
 👉 [Panduan Instalasi Java & Visual Studio Code](src/pertemuan_01/instalasi/README.md)
 
@@ -127,7 +147,7 @@ Untuk menyiapkan lingkungan pengembangan Java, silakan kunjungi dokumentasi beri
 
 ## 📁 Struktur Repository
 
-Repository ini memiliki dua bagian utama, yaitu dokumentasi materi pembelajaran dan implementasi project EcoCycle.
+Repository ini memiliki dua bagian utama, yaitu direktori materi pembelajaran dan direktori implementasi project EcoCycle.
 
 ```text
 Belajar Java/
@@ -163,41 +183,41 @@ Belajar Java/
 
 **1. `src/pertemuan_xx/`**
 
-Direktori utama untuk menyimpan materi pembelajaran berdasarkan pertemuan perkuliahan.
+Direktori ini digunakan untuk menyimpan seluruh materi pembelajaran berdasarkan pertemuan perkuliahan.
 
-Setiap folder pertemuan dapat berisi:
+Setiap folder pertemuan dapat memiliki beberapa direktori dan file pendukung:
 
-- `README.md` — Dokumentasi dan penjelasan materi.
-- `contoh/` — Implementasi kode dari contoh yang terdapat dalam materi perkuliahan.
-- `kuis/` — Latihan, tugas, atau kuis yang diberikan pada akhir materi.
-- File pendukung lainnya sesuai kebutuhan materi.
+- `README.md` — Dokumentasi penjelasan materi yang dipelajari.
+- `contoh/` — Kumpulan implementasi kode berdasarkan contoh yang terdapat dalam slide materi perkuliahan.
+- `kuis/` — Kumpulan latihan, soal, dan tugas pemrograman apabila tersedia.
+- File lainnya — Source code atau dokumen pendukung sesuai kebutuhan materi.
 
 **2. `src/project_ecocycle/`**
 
-Direktori khusus untuk menyimpan pengembangan project EcoCycle.
+Direktori khusus untuk menyimpan source code pengembangan project EcoCycle.
 
-Project ini dikembangkan secara bertahap berdasarkan materi yang telah dipelajari pada setiap pertemuan.
+Setiap folder `pertemuan_xx/` merupakan versi pengembangan project berdasarkan materi perkuliahan yang telah diselesaikan sampai pertemuan tersebut.
 
-Setiap folder pertemuan memiliki implementasi tersendiri sehingga perkembangan kode dapat dipelajari dan dibandingkan dari satu pertemuan ke pertemuan berikutnya.
+Dengan struktur ini, setiap tahap pengembangan dapat dipelajari secara terpisah tanpa mengubah implementasi dari pertemuan sebelumnya.
 
 **3. `README.md`**
 
-Dokumentasi utama repository yang berisi informasi pembelajaran, daftar materi, progress pengerjaan, struktur direktori, dan lingkungan pengembangan.
+File dokumentasi utama repository yang berisi informasi mengenai tujuan pembelajaran, daftar materi, progress, project EcoCycle, lingkungan pengembangan, dan struktur direktori.
 
 ---
 
 ## 🎯 Tujuan Repository
 
-Repository ini dibuat untuk:
+Secara keseluruhan, repository ini memiliki beberapa tujuan utama:
 
-1. Mendokumentasikan proses pembelajaran Java secara terstruktur.
+1. Mendokumentasikan proses pembelajaran Java selama 14 pertemuan secara terstruktur.
 2. Memahami fundamental Java dan konsep Pemrograman Berorientasi Objek.
 3. Menyediakan contoh implementasi kode berdasarkan materi perkuliahan.
-4. Menyimpan latihan, kuis, dan tugas pemrograman.
-5. Menerapkan materi pembelajaran melalui pengembangan project EcoCycle.
+4. Menyimpan latihan, kuis, dan tugas pemrograman sebagai bahan evaluasi pembelajaran.
+5. Menerapkan materi yang telah dipelajari melalui pengembangan project EcoCycle.
 6. Menjadi referensi belajar yang dapat digunakan kembali untuk memahami Java dan OOP.
 
-Materi dalam repository ini tidak hanya berisi source code, tetapi juga dilengkapi dengan dokumentasi penjelasan agar setiap konsep dapat dipahami dengan lebih mudah.
+Repository ini diharapkan dapat membantu proses pembelajaran menjadi lebih terarah melalui kombinasi antara teori, praktik coding, latihan, dan pengembangan project secara berkelanjutan.
 
 ---
 
