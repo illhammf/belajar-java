@@ -2,7 +2,7 @@ package project_ecocycle.pertemuan_08;
 
 // Subclass dari SetoranPlastik.
 public class SetoranBotolPET extends SetoranPlastik { 
-    
+    // Constructor untuk menginisialisasi objek SetoranBotolPET
     private String kodeResin;
 
     public SetoranBotolPET(
