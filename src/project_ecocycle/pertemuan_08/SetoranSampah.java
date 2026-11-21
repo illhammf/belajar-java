@@ -7,7 +7,7 @@ public class SetoranSampah {
     private double berat;
     private double hargaPerKg;
 
-    public SetoranSampah(
+    public SetoranSampah( // Constructor untuk menginisialisasi objek SetoranSampah
             String namaNasabah,
             double berat,
             double hargaPerKg) {
@@ -17,10 +17,12 @@ public class SetoranSampah {
         setHargaPerKg(hargaPerKg);
     }
 
+    // Getter untuk nama nasabah
     public String getNamaNasabah() {
         return namaNasabah;
     }
 
+    // Setter dengan validasi untuk nama nasabah
     public void setNamaNasabah(String namaNasabah) {
         if (namaNasabah != null && !namaNasabah.isBlank()) {
             this.namaNasabah = namaNasabah;
@@ -47,6 +49,7 @@ public class SetoranSampah {
         }
     }
 
+    // Method untuk menghitung nilai setoran berdasarkan berat dan harga per kilogram.
     public double hitungNilaiSetoran() {
         double beratSampah = this.berat;
         double hargaSampahPerKg = this.hargaPerKg;
@@ -61,6 +64,7 @@ public class SetoranSampah {
         System.out.println("Nilai Setoran: Rp" + formatRupiah(hitungNilaiSetoran()));
     }
 
+    // Method untuk memformat nilai menjadi format rupiah dengan tipe protected agar dapat diakses oleh kelas turunan.
     protected String formatRupiah(double nilai) {
         return String.format("%,.0f", nilai).replace(',', '.');
     }
