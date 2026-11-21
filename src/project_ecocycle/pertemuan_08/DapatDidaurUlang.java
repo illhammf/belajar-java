@@ -1,5 +1,7 @@
 package project_ecocycle.pertemuan_08;
 
-public class DapatDidaurUlang {
-    
+// Interface untuk objek yang dapat didaur ulang.
+public interface DapatDidaurUlang {
+
+    void prosesDaurUlang();
 }
