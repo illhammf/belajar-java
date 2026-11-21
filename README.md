@@ -230,6 +230,5 @@ GitHub: [@illhammf](https://github.com/illhammf)
 ---
 
 *Learning Java, Understanding OOP, and Building Something Useful.*
-artinya:
 
 > Mempelajari Java, Memahami OOP, dan Membangun Sesuatu yang Bermanfaat
