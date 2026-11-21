@@ -1,7 +1,7 @@
 package project_ecocycle.pertemuan_08;
 
 public class SetoranPlastik extends SetoranSampah
-        implements DapatDidaurUlang {
+        implements DapatDidaurUlang { // implementasi ini artinya SetoranPlastik harus menyediakan implementasi untuk metode prosesDaurUlang() dari interface DapatDidaurUlang.
 
     private String jenisPlastik;
 
