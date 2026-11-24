@@ -28,7 +28,7 @@ Berikut merupakan daftar materi yang dipelajari berdasarkan urutan pertemuan per
 | [Pertemuan 06](src/pertemuan_06/) | Implementation Encapsulations in Case Study | ✅ |
 | [Pertemuan 07](src/pertemuan_07/) | Memory Management | ✅ |
 | [Pertemuan 08](src/pertemuan_08/) | Inheritance (Basic & Case Study) | ✅ |
-| Pertemuan 09 | - | ⏳ |
+| [Pertemuan 09](src/pertemuan_09/) | Inheritance (Detail) | ⏳ |
 | Pertemuan 10 | - | ⏳ |
 | Pertemuan 11 | - | ⏳ |
 | Pertemuan 12 | - | ⏳ |
@@ -52,7 +52,7 @@ Pertemuan 05  ████████████████████ 100%
 Pertemuan 06  ████████████████████ 100%
 Pertemuan 07  ████████████████████ 100%
 Pertemuan 08  ████████████████████ 100%
-Pertemuan 09  ░░░░░░░░░░░░░░░░░░░░   0%
+Pertemuan 09  ████░░░░░░░░░░░░░░░░  25%
 Pertemuan 10  ░░░░░░░░░░░░░░░░░░░░   0%
 Pertemuan 11  ░░░░░░░░░░░░░░░░░░░░   0%
 Pertemuan 12  ░░░░░░░░░░░░░░░░░░░░   0%
