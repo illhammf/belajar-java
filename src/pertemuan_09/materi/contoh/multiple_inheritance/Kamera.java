@@ -1,5 +1,8 @@
 package pertemuan_09.materi.contoh.multiple_inheritance;
 
-public class Kamera {
-    
+// Interface pertama
+public interface Kamera {
+
+    // Abstract method
+    void ambilFoto();
 }
