@@ -1,5 +1,5 @@
 package pertemuan_09.materi.contoh.hybrid_inheritance;
 
-public class BisaDiisiDaya {
-    
+public interface BisaDiisiDaya {
+    void isiDaya();
 }
