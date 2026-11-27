@@ -1,5 +1,5 @@
 package pertemuan_09.materi.contoh.hybrid_inheritance;
 
-public class BisaDibawa {
-    
+public interface BisaDibawa {
+    void bawa();
 }
